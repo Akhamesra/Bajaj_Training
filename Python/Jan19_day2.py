@@ -204,5 +204,4 @@ def read_data(url):
 s=read_data(url).decode('utf-8')
 print(s)
 '''
-print("HEY")
 
