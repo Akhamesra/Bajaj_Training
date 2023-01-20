@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+      .c1, .c2, .c4, .c5{
+         color: red;
+      }
+      #table1{
+         background-color: beige;
+         margin-left: auto;
+         margin-right: auto;
+      }
+      #table4{
+         background-color: rgb(248, 226, 183);
+
+      }
+      table, th, td {   
+         padding: 10px ;
+         text-align: center;
+         border: 1px solid ;
+         border-collapse: collapse;
+      }
+    </style>
+</head>
+<body>
+     <h1> Hello </h1>
+     <p> x<sup>2</sup> + 2y = 23 + x </p>
+     <p> H<sub>2</sub>O = H<sub>2</sub>O</p>
+     <ul style = "list-style-type: square;">
+        <li class="c1"> 1st Statement</li>
+        <li class="c1"> 2nd Statement</li> 
+     </ul>
+
+     <ol>
+        <li> 1st Statement</li>
+        <li> 2nd Statement</li> 
+        <li> 3rd Statement</li> 
+     </ol>
+
+     <table id="table1">
+      <tr class="c1">
+         <th> Name </th>
+         <th> Job </th>
+         <th> Age </th>
+      </tr>
+      <tr>
+         <td> Akshit </td>
+         <td> Intern </td>
+         <td> 21 </td> 
+      </tr>
+     </table>
+
+     <table id="table2">
+      <tr class="c2">
+         <th> Name </th>
+         <td> Akshit </th>
+      </tr>
+      <tr>
+         <th rowspan="3"> Phone </th>
+         <td> 555-9823 </td>
+      </tr>
+      <tr> 
+         <td> 555-1234</td>
+      </tr>
+      <tr> 
+         <td> 555-1111</td>
+      </tr>
+      </table>
+
+      <br>
+      <table style = "width :50%" id="table3">
+         <tr class="c3">
+            <th colspan="2"> Name </th>
+            <th> Age </th>
+         </tr>
+         <tr>
+            <td> Akshit </td>
+            <td> Ram</td>
+            <td> 21 </td>
+         </tr>
+         <tr>
+            <td> John </td>
+            <td> Nolan </td>
+            <td> 24 </td> 
+         </tr>
+        </table>
+
+        <hr>
+        <h3 style="text-align: center; color: rgb(86, 86, 62);"> Life Expectancy by current age</h3>
+        <table id = "table4" style="width: 80%;">
+         <tr class="c4">
+            <th colspan="2"> 65</th>
+            <th colspan="2"> 40</th>
+            <th colspan="2"> 20</th>
+         </tr>
+         <tr>
+            <td>Men</td>
+            <td>Women</td>
+            <td>Men</td>
+            <td>Women</td>
+            <td>Men</td>
+            <td>Women</td>
+         </tr>
+         <tr>
+            <td>82</td>
+            <td>85</td>
+            <td>78</td>
+            <td>82</td>
+            <td>77</td>
+            <td>81</td>
+         </tr>
+        </table>
+        <hr>
+        <br>
+        <h2> Invoice </h2>
+        <table id="table4">
+         <tr class="c5">
+            <th>Item/Desc</th>
+            <th> Qty</th> 
+            <th> @ </th>
+            <th> Price</th>
+         </tr>
+         <tr>
+            <td> Paper Clip</td>
+            <td> 100</td>
+            <td> 1.15</td> 
+            <td> 115.00</td>
+         </tr>
+         <tr>
+            <td> Paper Case</td>
+            <td> 10</td>
+            <td> 45.99</td> 
+            <td> 459.90</td>
+         </tr>
+         <tr>
+            <td rowspan="2"> Wasterpaper <br><br> Baskets</td>
+            <td rowspan="2"> 2</td>
+            <td rowspan="2"> 17.99</td> 
+            <td rowspan="2"> 35.98</td>
+         </tr>
+         <tr>
+            
+         </tr>
+         <tr>
+            <td colspan="3"> Subtotal</td>
+            <td> 610 </td> 
+         </tr>
+         <tr>
+            <td colspan="2"> Tax</td>
+            <td> 7%</td>
+            <td> 42.76</td>
+         </tr>
+         <tr>
+            <td colspan="3"> Total</td>
+            <td> 653.64 </td>
+         </tr>
+        </table>
+        <hr>
+        <!--LINKS-->
+        <a href="https://www.google.com" target="_blank" title="Click here to search on google"> Google Search</a>
+        <hr>
+        
+        <iframe src="https://www.javatpoint.com/html-form"> </iframe>
+        <hr>
+
+        <img src="image1.png" alt="Google Image" height="200px">
+        <hr>
+        <!--Symbols-->
+        <p> 2&gt;1</p>
+        <p> 2&lt;3</p>
+        <p> &cent;</p>
+        <p> &copy;</p>
+        <p> &reg;</p>
+        <p> &spades;</p>
+        <p> &hearts;</p>
+        <p> &diamond;</p>
+        <hr>
+        
+
+
+
+
+
+</body>
+</html>

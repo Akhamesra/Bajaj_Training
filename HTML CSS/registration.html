@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <script
+      src="https://kit.fontawesome.com/f712955866.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <i class="fas fa-search fa-rotate-90"></i>
+    <div style="width: 600px; float: left;">
+      <h2>Registration Form</h2>
+
+      <form style="font-size: large;">
+        <fieldset>
+          <h2>
+            <p>
+              <legend>Information</legend>
+            </p>
+          </h2>
+          <label> First Name </label>
+          <input type="text" name="fname" placeholder="First name" /> <br />
+          <label> Last Name</label>
+          <input type="text" name="lname" placeholder="Last Name" /><br />
+          <label>Gender</label>
+          <input type="radio" id="gender" name="gender" value="Male" /> Male
+          <input type="radio" id="gender" name="gender" value="Female" /> Female
+          <input type="radio" id="gender" name="gender" value="Other" /> Other
+          <br />
+          <label> Mobile Number</label>
+          <input type="number" placeholder="Mob. No." /><br />
+          <label> Email Address</label>
+          <input type="email" placeholder="email" /><br />
+          <label>Password</label>
+          <input type="password" placeholder="passowrd" /><br />
+          <label>Your Fav Movie</label>
+          <select name="Movies" id="movies">
+            <option value="Iron Man">Iron Man</option>
+            <option value="Iron Man 2">Iron Man 2</option>
+            <option value="Iron Man 3">Iron Man 3</option>
+            <option value="Captain America">Captain America</option></select
+          ><br />
+          <input type="color" /><br />
+          <input type="file" /><br />
+          <label> T&C </label> <input type="checkbox" /><br />
+          <label> Enter the url </label><input type="url" /><br />
+
+          <input type="reset" /><br />
+          <button type="button">Click Me</button><br />
+          <input
+            type="submit"
+            name="submit"
+            value="Submit"
+            onclick="Alert('Hi There')"
+          />
+        </fieldset>
+      </form>
+    </div>
+    <br />
+    <video width="800" controls >
+      <source src="sample_video.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>

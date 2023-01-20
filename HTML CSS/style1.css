@@ -1,0 +1,16 @@
+p{
+    color: blue;
+}
+p{
+    color: blueviolet;
+    border: chartreuse 4px dotted;
+    background-color: chocolate;
+}
+h2{
+    color: olive;
+    border: violet;
+}
+body{
+    background: url("image1.png") fixed left no-repeat;
+
+}
