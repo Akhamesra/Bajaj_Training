@@ -1,0 +1,32 @@
+INFO:__name__:Done
+ERROR:__name__:division by zero
+Traceback (most recent call last):
+  File "/Users/akshitkhamesra/Desktop/Training/Python/Jan20_day3.py", line 220, in <module>
+    c = a/b
+        ~^~
+ZeroDivisionError: division by zero
+INFO:__name__:Done
+ERROR:__name__:division by zero
+Traceback (most recent call last):
+  File "/Users/akshitkhamesra/Desktop/Training/Python/Jan20_day3.py", line 220, in <module>
+    c = a/b
+        ~^~
+ZeroDivisionError: division by zero
+ERROR:Akshit:division by zero
+Traceback (most recent call last):
+  File "/Users/akshitkhamesra/Desktop/Training/Python/Jan20_day3.py", line 220, in <module>
+    c = a/b
+        ~^~
+ZeroDivisionError: division by zero
+ERROR:__name__:invalid literal for int() with base 10: '10 2'
+Traceback (most recent call last):
+  File "/Users/akshitkhamesra/Desktop/Training/Python/Jan20_day3.py", line 218, in <module>
+    a,b = int(input("Enter two number :"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10 2'
+ERROR:__name__:invalid literal for int() with base 10: '10 2'
+Traceback (most recent call last):
+  File "/Users/akshitkhamesra/Desktop/Training/Python/Jan20_day3.py", line 218, in <module>
+    a,b = int(input("Enter two number :")).spilt(" ")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '10 2'

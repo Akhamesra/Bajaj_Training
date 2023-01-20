@@ -135,3 +135,90 @@ ob = SubClass()
 ob.calc(15)
 '''
 
+#Exception Handeling 
+'''
+try :
+
+except :
+
+else :
+
+finally :
+'''
+'''
+try:
+    f = open("file.txt","w")
+    a,b = [int(x) for x in input("Enter two numbers : ").split(" ")]
+    c = a/b
+    f.write(f"writing {c} into file")
+except ZeroDivisionError:
+    print("Error : b cant be 0")
+'''
+'''
+try:
+    name = input("enter your name ")
+    f = open("file.txt", "r")
+except IOError as ie:
+    print("File not exist")
+else:
+    n = len(f.read())
+    print("file has ", n, "lines")
+'''
+# Exception in function
+'''
+def avg(l):
+    t=0
+    for i in l:
+        t+=i
+    avg= t/len(l)
+    return t, avg
+
+try:
+    t, a = avg([1,2,3,4,"p"])
+    print(f"total = {t} , avg = {a}")
+except TypeError as te:
+    print(te)
+except ZeroDivisionError as ze:
+    print(ze)
+'''
+#Making user defined exception
+'''
+class MyException(Exception):
+    def __init__(self, arg):
+        self.arg = arg
+        
+def check(d):
+    for k,v in d.items():
+        print(k,v)
+        if v<2000.0:
+            raise MyException("Balance is 0")
+
+b = {"Raj" : 4000, "Ramesh" : 3000, "mahesh" : 1000, "Ram": 400}
+try :
+    check(b)
+except MyException as me:
+    print(me)
+'''  
+#Logging the exception
+'''
+#Debug levels - 
+critical 50
+error 40
+warning 30
+info 20
+debug 10
+not set 0
+''' 
+
+import logging
+logging.basicConfig(filename = "file.log",level=logging.DEBUG)
+logger = logging.getLogger("__name__")
+
+try:
+    a = int(input("Enter a number :"))
+    b = int(input("Enter second number "))
+    c = a/b
+    logger.info("Done")  
+except ZeroDivisionError as ze:
+    logger.exception(ze)
+    
