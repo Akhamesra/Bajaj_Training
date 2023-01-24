@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+</head>
+<body>
+    <w>Using user input program </w>
+    <p>Click the button</p>
+    <button onclick="myfunction()">Click Here</button>
+    <p id="demo"> </p>
+    <p id="demo2"> </p>
+    <p id="demo3"> </p>
+    <p id="demo4"> </p>
+    <p id="demo5"> </p>
+    <p id="demo6"> </p>
+    <p id="demo7"> </p>
+    <p id="demo8"> </p>
+    <p id="demo9"> </p>
+    <p id="demo10"> </p>
+    <p id="demo11"> </p>
+    <p id="demo12"> </p>
+
+    <hr>
+    <div>
+        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on</button>
+        <img id="myImage" src="pic_bulboff.gif" style="width: 40px;">
+        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off</button>
+    </div>
+    <hr>
+    
+    <script>
+        function myfunction(){
+            let person = prompt("Please enter your name","Rohit");
+            if(person!=null){
+                document.getElementById("demo").innerHTML = "Hello " + person +"! How are you ?";
+            }
+        }
+        const arr1 = ["Akshit", "Khamesra"];
+        document.getElementById('demo2').innerHTML = arr1[0] + " " + arr1[1];
+
+        const arr2 = ['x','z','y'];
+        var text = "<ul>";
+        arr2.forEach(myfunc2);
+        text+="</ul>";
+        function myfunc2(ele){
+            text += "<li>" + ele + "</li>";
+        }
+        document.getElementById('demo3').innerHTML = text;
+
+        const arr3 = [45, 12, 10 ,2];
+        document.getElementById('demo4').innerHTML = "Original Array - " + arr3 + "<br> Sorted Array -   " + arr3.sort(function(a,b){return a-b;}) + "<br> Original Array - " + arr3;
+
+        let poped = arr3.pop();
+        document.getElementById('demo5').innerHTML = "<br> Array after pop : " +  arr3 + "<br> Popped Element : " + poped;
+
+        let shifted = arr3.shift()
+        document.getElementById('demo6').innerHTML = "<br> Array after shift : " +  arr3 + "<br> Shifted Element : " + shifted;
+
+        document.getElementById('demo7').innerHTML = "<br> Array before unshift : " +  arr3;
+        arr3.unshift(100);
+        document.getElementById('demo8').innerHTML = "<br> Array after unshift : " +  arr3;
+
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fruits.splice(2, 2, "Lemon", "Kiwi");
+        document.getElementById('demo9').innerHTML = "Splice : " + fruits
+        fruits.splice(0,1);
+        document.getElementById('demo10').innerHTML = "Splice to remove: " + fruits
+
+        
+
+
+        //document.getElementById('demo6').innerHTML = arr3.join(" - ")
+
+
+    </script>    
+    
+</body>
+</html>
+

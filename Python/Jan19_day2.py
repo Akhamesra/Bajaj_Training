@@ -144,7 +144,7 @@ r = re.search(r'm\w\w',s)
 print(r.group())
 '''
 # s = "This; is the: 'core' python\'s book"
-# r = re.split(r'\w+',s)
+# r = re.split(r'^(\w+)',s)
 # print(r)
 
 # s2 = "This is beautiful"
