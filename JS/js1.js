@@ -19,6 +19,7 @@
 // let str = "Apple, Banana, Kiwi";
 // let part = str.slice(-12, 35);
 // //
+
 // string1 = "Hello World"
 // string2 = "! This is me."
 // const arr1 = ['a', 'b', 'c']
@@ -31,6 +32,7 @@
 // for(let key of arr1){
 //     console.log(key)
 // }
+
 // class Emp{
 //     static company = "Bajaj Markets";
 //     constructor(eid, ename,esal){
@@ -57,3 +59,19 @@
 // e1.esal = 50000;
 // Emp.company = "Bajaj Finserv"
 // console.log(e1.disp(), Emp.get_company())
+
+// class Meetup{
+//     constructor(organizer){
+//         this.organizer = organizer;
+//     }
+// }
+
+// class Teachmeet extends Meetup{
+//     constructor(organizer,techtopic){
+//         super(organizer);
+//         this.teachtopics = techtopic;
+//     }
+// }
+
+// let js = new Teachmeet("Unext", "Microservices");
+// console.log(js.organizer, "-", js.teachtopics);
