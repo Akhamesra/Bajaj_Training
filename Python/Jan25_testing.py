@@ -72,7 +72,7 @@ if __name__ == '__main__':
 '''
 
 #MONKEY PATCHING
-
+'''
 class Test:
     def __func(self):
         print("Func() is called from Test")
@@ -80,6 +80,9 @@ class Test:
 def monkey_patch_demo(self):
     print('Monkey patch func is called')
 
-Test.func = monkey_patch_demo
-ob = Test()
-ob.func()
+
+Test.__func = monkey_patch_demo
+ob1 = Test()
+ob1.__func()
+'''
+
