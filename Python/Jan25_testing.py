@@ -55,3 +55,31 @@ class TestCalc(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 '''
+
+'''
+class Testmethods(unittest.TestCase):
+    def test_Upper(self):
+        self.assertEqual("foo".upper(),"FOO", "NOT THE SAME")
+    def test_Upper2(self):
+        self.assertTrue("FOO".isupper())
+        self.assertFalse("Foo".isupper())
+    def test_Split(self):
+        s = "hello world"
+        self.assertEqual(s.split(), ['hello','world'])
+
+if __name__ == '__main__':
+    unittest.main
+'''
+
+#MONKEY PATCHING
+
+class Test:
+    def __func(self):
+        print("Func() is called from Test")
+
+def monkey_patch_demo(self):
+    print('Monkey patch func is called')
+
+Test.func = monkey_patch_demo
+ob = Test()
+ob.func()
