@@ -29,3 +29,29 @@ assertNotIn(x, y, msg=None)	        x not in y
 assertIsInstance(x, y, msg=None)	isinstance(x, y)
 assertNotIsInstance(x, y, msg=None)	not isinstance(x, y)
 '''
+# TESTING CALC>PY
+import unittest
+from calc import Calculator
+'''
+class TestCalc(unittest.TestCase):
+    def test_sum(self):
+        c = Calculator(9,6)
+        self.assertEqual(c.get_addition(), 15, 'The sum is wrong')
+
+if __name__ == '__main__':
+    unittest.main()
+'''
+
+'''
+class TestCalc(unittest.TestCase):
+    def setUp(self):
+        self.c =Calculator(9,6)
+        self.f = open("file.txt","r")
+    def turnDown(self):
+        self.f.close()
+    def test_diff(self):
+        self.assertEqual(self.c.get_difference(),3,'The diff is wrong')
+
+if __name__ == '__main__':
+    unittest.main()
+'''
