@@ -75,3 +75,33 @@
 
 // let js = new Teachmeet("Unext", "Microservices");
 // console.log(js.organizer, "-", js.teachtopics);
+
+// BLOCK SCOPE
+// m = 4;
+// n = 2;
+// if(m>n){
+//     var p =4; //accessiblev
+// }
+// console.log(p); 
+
+// if(m>n){
+//     let g = 10; // not accessible
+// }
+// console.log(g);
+
+//FUNCTION SCOPE
+// function f1(){let v1 = 10}
+// function f2(){var v2 = 20}
+// function f3(){const v3 = 30}
+// console.log(v1,v2,v3) // not accessible
+
+//GLOBAL SCOPE
+// var v5 = 40;
+// let v6 = 50;
+// const v7 = 60;
+// function check(){
+//     v5 = 66;
+//     v6 = 77;
+// }
+// check()
+// console.log(v5,v6,v7);

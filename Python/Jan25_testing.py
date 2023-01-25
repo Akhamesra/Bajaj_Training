@@ -68,7 +68,7 @@ class Testmethods(unittest.TestCase):
         self.assertEqual(s.split(), ['hello','world'])
 
 if __name__ == '__main__':
-    unittest.main
+    unittest.main()
 '''
 
 #MONKEY PATCHING
@@ -85,4 +85,21 @@ Test.__func = monkey_patch_demo
 ob1 = Test()
 ob1.__func()
 '''
+
+#Unit test with mockito
+from unittest import TestCase
+from mockito import when, verifyStubbedInvocationsAreUsed
+import func_for_mockito_test
+
+def two_plus_two():
+    return func_for_mockito_test.add(2,2)
+
+class SingleMockitoTest(TestCase):
+    def test_two_plus_two(self):
+        when(func_for_mockito_test).add(2,2).thenReturn(4)
+        self.assertEqual(4,two_plus_two())
+        verifyStubbedInvocationsAreUsed()
+
+if __name__ == '__main__':
+    unittest.main()
 
