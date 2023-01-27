@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Welcome to FlaskShortener</title>
+</head>
+<body>
+        <form method="post">
+            <div class="form-group">
+                <label for="url">URL</label>
+                <input type="text" name="url" placeholder="URL to shorten" class="form-control"
+                    value="{{ request.form['url'] }}" autofocus></input>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+        {% if short_url %}
+        <hr>
+        <span><a href= "{{short_url}}" target="_blank">{{short_url}}</a></span><br>
+        {% endif %}
+    
+</body>
+</html>
