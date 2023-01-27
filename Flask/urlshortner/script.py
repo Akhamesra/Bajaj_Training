@@ -18,12 +18,12 @@ def index():
         surl = generate_short_id(5)
         if url not in d.values():
             d[surl] = url
-        #return f"surl : {surl} <br> url : {url} <br> {d}"
         return render_template('index.html', short_url=request.host_url + surl, d=d)
     return render_template('index.html')
+
 @app.route('/<id>')
 def url_redirect(id):
-    original_id = d[id]
-    return redirect(original_id)
+    original_url = d[id]
+    return redirect(original_url)
 if __name__ == '__main__':  
    app.run(debug = True)

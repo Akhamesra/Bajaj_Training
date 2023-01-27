@@ -9,7 +9,7 @@
 <body>
         <form method="post">
                 <label for="url">URL</label>
-                <input type="text" name="url" placeholder="URL to shorten" value="{{ request.form['url'] }}"></input><br>
+                <input type="text" name="url"></input><br>
                 <button type="submit">Submit</button>
         </form>
         {% if short_url %}
