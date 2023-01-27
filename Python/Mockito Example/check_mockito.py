@@ -7,7 +7,7 @@ def test_fetch():
     when(session).get(url).thenReturn(response)
     when(requests).Session().thenReturn(session)
     r = fetch(url)
-    print(r.text)
+    print(r.text)   
     assert r.text == 'Ok'
     verifyStubbedInvocationsAreUsed()
 
