@@ -16,9 +16,10 @@ def index():
     if request.method == 'POST':
         url = request.form['url']
         surl = generate_short_id(5)
-        d[surl] = url
+        if url not in d.values():
+            d[surl] = url
         #return f"surl : {surl} <br> url : {url} <br> {d}"
-        return render_template('index.html', short_url=request.host_url + surl)
+        return render_template('index.html', short_url=request.host_url + surl, d=d)
     return render_template('index.html')
 @app.route('/<id>')
 def url_redirect(id):
