@@ -23,12 +23,12 @@
 // string1 = "Hello World"
 // string2 = "! This is me."
 // const arr1 = ['a', 'b', 'c']
-// document.getElementById('demo2').innerHTML = arr1;
-// const arr1 = [1,2,3,4,5]
+//document.getElementById('demo2').innerHTML = arr1;
+// const arr1 = [6,7,8,9,10]
 // for(let key in arr1){
 //     console.log(arr1[key])
 // }
-// const arr1 = [1,2,3,4,5]
+// const arr1 = [6,7,8,9,10]
 // for(let key of arr1){
 //     console.log(key)
 // }
