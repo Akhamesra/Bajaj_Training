@@ -1,0 +1,56 @@
+2023-02-01 13:00:30,041 INFO pet_animal : Database Already created
+2023-02-01 13:00:30,050 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5200
+2023-02-01 13:00:30,050 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-02-01 13:00:30,053 INFO werkzeug :  * Restarting with stat
+2023-02-01 13:00:30,243 INFO pet_animal : Database Already created
+2023-02-01 13:00:30,249 WARNING werkzeug :  * Debugger is active!
+2023-02-01 13:00:30,259 INFO werkzeug :  * Debugger PIN: 569-597-871
+2023-02-01 13:00:38,851 INFO pet_animal : Showing the table at index page
+2023-02-01 13:00:38,873 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:00:38] "GET / HTTP/1.1" 200 -
+2023-02-01 13:00:39,951 INFO pet_animal : Showing the table at index page
+2023-02-01 13:00:39,953 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:00:39] "GET / HTTP/1.1" 200 -
+2023-02-01 13:01:01,864 INFO pet_animal : Database Already created
+2023-02-01 13:01:01,872 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5200
+2023-02-01 13:01:01,872 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-02-01 13:01:01,874 INFO werkzeug :  * Restarting with stat
+2023-02-01 13:01:02,047 INFO pet_animal : Database Already created
+2023-02-01 13:01:02,052 WARNING werkzeug :  * Debugger is active!
+2023-02-01 13:01:02,057 INFO werkzeug :  * Debugger PIN: 569-597-871
+2023-02-01 13:01:41,827 INFO pet_animal : Showing the table at index page
+2023-02-01 13:01:41,844 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:01:41] "GET / HTTP/1.1" 200 -
+2023-02-01 13:01:49,732 INFO pet_animal : Showing the table at index page
+2023-02-01 13:01:49,734 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:01:49] "GET / HTTP/1.1" 200 -
+2023-02-01 13:01:52,321 INFO pet_animal : Showing the table at index page
+2023-02-01 13:01:52,323 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:01:52] "GET / HTTP/1.1" 200 -
+2023-02-01 13:01:53,143 INFO pet_animal : Showing the table at index page
+2023-02-01 13:01:53,144 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:01:53] "GET / HTTP/1.1" 200 -
+2023-02-01 13:01:58,572 INFO pet_animal : Showing the table at index page
+2023-02-01 13:01:58,574 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:01:58] "GET / HTTP/1.1" 200 -
+2023-02-01 13:02:09,433 INFO pet_animal : Showing the table at index page
+2023-02-01 13:02:09,434 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:02:09] "GET / HTTP/1.1" 200 -
+2023-02-01 13:02:10,432 INFO pet_animal : Form not validated
+2023-02-01 13:02:10,440 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:02:10] "GET /create HTTP/1.1" 200 -
+2023-02-01 13:02:10,925 INFO pet_animal : Showing the table at index page
+2023-02-01 13:02:10,927 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:02:10] "GET / HTTP/1.1" 200 -
+2023-02-01 13:02:11,604 INFO pet_animal : Form not validated
+2023-02-01 13:02:11,607 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:02:11] "GET /create HTTP/1.1" 200 -
+2023-02-01 13:02:11,963 INFO pet_animal : Form not validated
+2023-02-01 13:02:11,964 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:02:11] "GET /create HTTP/1.1" 200 -
+2023-02-01 13:02:14,714 INFO pet_animal : Details inserted into the table.
+2023-02-01 13:02:14,715 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:02:14] "[32mPOST /create HTTP/1.1[0m" 302 -
+2023-02-01 13:02:14,724 INFO pet_animal : Showing the table at index page
+2023-02-01 13:02:14,725 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:02:14] "GET / HTTP/1.1" 200 -
+2023-02-01 13:02:52,191 INFO werkzeug :  * Detected change in '/Users/akshitkhamesra/Desktop/Training/Flask/class_based_db/pet_app/pet_animal.py', reloading
+2023-02-01 13:02:52,226 INFO werkzeug :  * Restarting with stat
+2023-02-01 13:02:59,278 INFO pet_animal : Database Already created
+2023-02-01 13:02:59,286 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5200
+2023-02-01 13:02:59,286 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-02-01 13:02:59,289 INFO werkzeug :  * Restarting with stat
+2023-02-01 13:02:59,460 INFO pet_animal : Database Already created
+2023-02-01 13:02:59,465 WARNING werkzeug :  * Debugger is active!
+2023-02-01 13:02:59,471 INFO werkzeug :  * Debugger PIN: 569-597-871
+2023-02-01 13:03:04,412 INFO pet_animal : Showing the table at index page
+2023-02-01 13:03:04,435 INFO werkzeug : 127.0.0.1 - - [01/Feb/2023 13:03:04] "GET / HTTP/1.1" 200 -
